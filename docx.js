@@ -1664,4 +1664,9 @@ var docx;
     }());
     docx.HtmlRenderer = HtmlRenderer;
 })(docx || (docx = {}));
+define("index", ["require", "exports", "docx"], function (require, exports, docx) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.docx = docx;
+});
 //# sourceMappingURL=docx.js.map
